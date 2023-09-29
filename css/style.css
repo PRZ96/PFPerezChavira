@@ -34,43 +34,53 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
     text-align: center;
+    background-color: black;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    font-size: 1.5rem;
+.navbar {
+    background-color: black;
+    color: #fff !important;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
+.header__nav li a {
     text-decoration: none;
     color: #fff;
     padding: 10px 20px;
+    display: inline;
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.header__nav li a:hover{
+    color: red;
+}
+
+.header__social {
+    font-size: 1.8rem;
+}
+
+.header__social a {
+    color: #fff;
+}
+
+.header__social a:hover {
+    color: red;
 }
 
 .hero {
-    height: 32vh;
+    height: 33vh;
     text-align: center;
-    padding-block: 12vh;
+    padding-top: 12vh;
     background-image: url('../assets/img/main-header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 30vh;
 }
 
-.hero h1 {
-    padding-top: 1rem;
+.hero__title {
+    padding-top: 0rem;
     padding-bottom: 1rem;
     margin-inline: 20rem;
     color: #fff;

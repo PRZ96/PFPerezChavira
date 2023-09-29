@@ -12,25 +12,46 @@
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
-                <li><i class="bi bi-file-person"></i> Pablo Pérez</li>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="pages/sobre_mi.html">Sobre mí</a></li>
-                <li><a href="pages/proyectos.html">Proyectos</a></li>
-                <li><a href="#">Experiencia</a></li>
-                <li><a href="#">CV</a></li>
-                <li><i class="bi bi-linkedin"></i></li>
-                <li><i class="bi bi-github"></i></li>
-            </ul>
+    <header class="header container-fluid">
+        <nav class="navbar navbar-expand-lg sticky-top" aria-label="Navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand d-block d-lg-none col-lg-2 me-2 ps-2 header__logo text-white" href="#home">
+                    <p class="fs-3 fw-bold m-0 me-4"><i class="bi bi-file-person me-3"></i><span>Pablo
+                            Pérez</span></p>
+                </a>
+                <button class="navbar-toggler header__toggle" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#main-navbar" aria-controls="navbars" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-lg-flex align-items-center" id="main-navbar">
+                    <a class="navbar-brand d-none d-lg-block col-lg-3 me-0 ps-2 header__logo text-white" href="#home">
+                        <p class="fs-3 fw-bold m-0 me-4"><i class="bi bi-file-person me-3"></i><span>Pablo
+                                Pérez</span></p>
+                    </a>
+                    <ul class="navbar-nav col-lg-6 justify-content-lg-center header__nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/sobre_mi.html">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pages/proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Experiencia</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
+                    </ul>
+                    <div class="col-lg-3 me-0 ps-2 header__social">
+                        <nav>
+                            <a href="https://www.linkedin.com/in/pabloprz/" target="_blank"><i class="bi bi-linkedin me-3"></i></a>
+                            <a href="https://github.com/PRZ96" target="_blank"><i class="bi bi-github"></i></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
+
     <section class="hero">
-        <h1>Pablo Pérez <br> Front End Developer</h1>
-        <p></p>
+        <h1 class="hero__title">Pablo Pérez <br> Front End Developer</h1>
+        <p class="hero__subtitle"></p>
     </section>
+    
     <main>
         <h2>Hola, soy Pablo</h2>
         <div class="container container-two-column">
