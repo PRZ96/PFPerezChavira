@@ -89,51 +89,27 @@ header {
     font-weight: bold;
 }
 
-main h2 {
+.intro__title {
     text-align: center;
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 600;
 }
 
-main {
-    display: block;
+.intro__image {
+    aspect-ratio: 16/9;
+    max-width: 50rem;
+    object-fit: cover;
+}
+
+.intro__info {
+    font-size: 2rem;
 }
 
 .container {
     width: 100%;
     overflow: hidden;
     margin-bottom: 5rem;
-}
-
-.container-two-column .column {
-    width: 50%;
-    box-sizing: border-box;
-    padding: 0 10px;
-}
-
-.container-two-column .column:first-child {
-    float: left;
-    margin-right: 10px;
-}
-
-.container-two-column .column:last-child {
-    float: right;
-    margin: -.5rem;
-}
-
-.container-two-column .column p {
-    font-size: 1.5rem;
-}
-
-#img-inicio {
-    aspect-ratio: 16/9;
-    max-width: 50rem;
-    object-fit: cover;
-}
-
-#p-inicio {
-    padding-left: 3rem;
-    padding-top: 8rem;
 }
 
 footer {
