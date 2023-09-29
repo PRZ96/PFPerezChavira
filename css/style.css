@@ -106,13 +106,7 @@ header {
     font-size: 2rem;
 }
 
-.container {
-    width: 100%;
-    overflow: hidden;
-    margin-bottom: 5rem;
-}
-
-footer {
+.footer {
     width: 100%;
     background-color: #333;
     color: #fff;
@@ -120,68 +114,26 @@ footer {
     margin-bottom: 0;
 }
 
-footer .container {
+.footer .container {
     margin-bottom: 0;
 }
 
-.container-four-columns .column {
-    width: 25%;
-    box-sizing: border-box;
-    padding: 0 20px;
-}
-
-.container-four-columns .column {
-    float: left;
-    margin-right: 10px;
-}
-
-.container-four-columns .column:last-child {
-    float: right;
-    margin-right: 10px;
-    margin-top: -1rem;
-}
-
-:is(#col-info, #col-proyectos, #col-contacto, #col-paginas) {
-    font-size: 1.5rem;
-}
-
-:is(#col-info, #col-proyectos, #col-contacto, #col-paginas) ul {
+:is(.footer__info, .footer__proyects, .footer__contact, .footer__pages) ul, li, a {
     list-style: none;
-}
-
-:is(#col-info, #col-proyectos, #col-contacto, #col-paginas) ul li {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-}
-
-:is(#col-info, #col-proyectos, #col-contacto, #col-paginas) ul li:first-child {
     margin-top: 1rem;
-}
-
-:is(#col-info, #col-proyectos, #col-contacto, #col-paginas) ul a{
     color: #fff;
     text-decoration: none;
 }
 
-.footer_title {
+:is(.footer__info, .footer__proyects, .footer__contact, .footer__pages) a:hover{
+    color: red;
+}
+
+.footer__title {
     font-weight: bolder;
     font-size: 1.8rem;
-}
-
-#col-info {
-    margin-top: 2rem;
-}
-
-#col-proyectos {
-    margin-top: -7rem;
-}
-
-
-#col-contacto {
-    margin-top: 2rem;
-}
-
-#col-paginas {
-    margin-top: -14rem;
 }
 
 #title-sobre-mi {

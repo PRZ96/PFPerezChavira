@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <title>Pablo Pérez - Sobre mí</title>
@@ -32,13 +32,14 @@
                     <ul class="navbar-nav col-lg-6 justify-content-lg-center header__nav">
                         <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="sobre_mi.html">Sobre mí</a></li>
-                        <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Experiencia</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
                     </ul>
                     <div class="col-lg-3 me-0 ps-2 header__social">
                         <nav>
-                            <a href="https://www.linkedin.com/in/pabloprz/" target="_blank"><i class="bi bi-linkedin me-3"></i></a>
+                            <a href="https://www.linkedin.com/in/pabloprz/" target="_blank"><i
+                                    class="bi bi-linkedin me-3"></i></a>
                             <a href="https://github.com/PRZ96" target="_blank"><i class="bi bi-github"></i></a>
                         </nav>
                     </div>
@@ -57,7 +58,7 @@
         </div>
         <p></p>
     </section>
-    <main id="sobre-mi">
+    <main id="sobre-mi" class="mb-5">
         <h3>Habilidades Técnicas</h3>
         <div class="container">
             <div class="container container-six-columns">
@@ -142,50 +143,86 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="container">
-            <div class="container container-four-columns">
-                <div id="col-info" class="column">
-                    <ul>
-                        <li><span class="footer_title">Pablo Pérez</span></li>
-                        <li><p>Cualquier consulta u oferta no dudes en contactarme</p></li>
-                        <li><p>&copy 2023 PRZ96. Todos los derechos reservados.</p></li>
-                    </ul>
-                </div>
-                <div id="col-proyectos" class="column">
-                    <p id="p-inicio">
+
+    <footer class="footer">
+        <div class="container-xl">
+            <div class="row">
+                <div class="col-lg-3 mt-5">
+                    <div id="col-info" class="footer__info">
                         <ul>
-                            <span class="footer_title">Pablo Pérez</span></li>
-                            <a href=""><li>LANDING PAGE</li></a>
-                            <a href=""><li>E-COMMERCE</li></a>
+                            <li><span class="footer__title">Pablo Pérez</span></li>
+                            <li>
+                                <p>Cualquier consulta u oferta no dudes en contactarme</p>
+                            </li>
+                            <li>
+                                <p>&copy 2023 PRZ96. Todos los derechos reservados.</p>
+                            </li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
-                <div id="col-contacto" class="column">
-                    <ul>
-                        <span class="footer_title">Contacto</span></li>
-                        <a href=""><li>Github</li></a>
-                        <a href=""><li>Linkedin</li></a>
-                        <a href=""><li>pablo.ceti.96@hotmail.com</li></a>
-                    </ul>
+                <div class="col-lg-3 mt-5">
+                    <div id="col-proyectos" class="footer__proyects">
+                        <p id="p-inicio">
+                        <ul>
+                            <span class="footer__title">Pablo Pérez</span></li>
+                            <li>
+                                <a href="#">LANDING PAGE</a>
+                            </li>
+                            <li>
+                                <a href="#">E-COMMERCE</a>
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
                 </div>
-                <div id="col-paginas" class="column">
-                    <ul>
-                        <span class="footer_title">Páginas</span></li>
-                        <a href=""><li>Inicio</li></a>
-                        <a href=""><li>Sobre mí</li></a>
-                        <a href=""><li>Proyectos</li></a>
-                        <a href=""><li>Experiencia</li></a>
-                        <a href=""><li>CV</li></a>
-                    </ul>
+                <div class="col-lg-3 mt-5">
+                    <div id="col-contacto" class="footer__contact">
+                        <ul>
+                            <span class="footer__title">Contacto</span></li>
+                            <li>
+                                <a href="https://github.com/PRZ96" target="_blank"><i
+                                        class="bi bi-github me-3"></i>Github</a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/pabloprz/" target="_blank"><i
+                                        class="bi bi-linkedin me-3"></i>Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="mailto:pablo.ceti.96@hotmail.com"><i
+                                        class="bi bi-envelope-fill me-3"></i>pablo.ceti.96@hotmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-5">
+                    <div id="col-paginas" class="footer__pages">
+                        <ul>
+                            <span class="footer__title">Páginas</span></li>
+                            <li>
+                                <a href="../index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <a href="sobre_mi.html">Sobre mí</a>
+                            </li>
+                            <li>
+                                <a href="#">Proyectos</a>
+                            </li>
+                            <li>
+                                <a href="#">Experiencia</a>
+                            </li>
+                            <li>
+                                <a href="#">CV</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
