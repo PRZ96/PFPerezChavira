@@ -182,6 +182,11 @@ header {
     margin-block: 1rem;
 }
 
+.sobre-mi__card .icon-container .fa, .fa-solid, .fa-brands{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 .sobre-mi__card span{
     font-size: 1.5rem;
 }
