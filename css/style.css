@@ -69,14 +69,13 @@ header {
 }
 
 .hero {
-    height: 33vh;
+    height: 100%;
     text-align: center;
-    padding-top: 12vh;
     background-image: url('../assets/img/main-header.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 30vh;
+    padding-block: 3rem;
 }
 
 .hero__title {
@@ -88,6 +87,17 @@ header {
     background-color: hwb(0 7% 91% / 0.745);
     font-weight: bold;
 }
+
+@media (max-width: 767px) {
+    .hero__title {
+        font-size: 3rem;
+        margin-inline: 1rem;
+    }
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+  }
 
 .intro__title {
     text-align: center;
