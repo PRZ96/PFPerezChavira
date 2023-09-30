@@ -108,7 +108,7 @@ header {
 
 .intro__image {
     aspect-ratio: 16/9;
-    max-width: 50rem;
+    max-width: 100%;
     object-fit: cover;
 }
 
