@@ -136,56 +136,53 @@ header {
     font-size: 1.8rem;
 }
 
-#title-sobre-mi {
-    color: #fff;
-    font-size: 4rem;
-    text-align: start;
-    padding-top: 4rem;
-    padding-left: 3rem;
+.hero-sobre-mi {
+    height: 100%;
+    background-image: url('../assets/img/main-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 3rem;
 }
 
-#img-sobre-mi {
+.hero-sobre-mi__title {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.hero-sobre-mi__image {
     aspect-ratio: 16/9;
     object-fit: cover;
     object-position: center;
     max-width: 100%;
 }
 
-#hero-sobre-mi .container {
-    margin-top: -4rem;
+.hero-sobre-mi__paragraph {
+    font-size: 1.8rem;
 }
 
-#sobre-mi h3 {
-    text-align: center;
+.sobre-mi__title {
     font-size: 2.5rem;
     margin-block: 4.5rem;
+    text-align: center;
 }
 
-.container-six-columns .column {
-    width: 14.28%;
-    box-sizing: border-box;
-    padding: 0 20px;
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-#sobre-mi .card {
+.sobre-mi__card {
     width: 14rem;
     height: 14rem;
     text-align: center;
     border: 1px solid #000;
 }
 
-#sobre-mi .card i{
+.sobre-mi__card i{
     font-size: 6rem;
 }
 
-#sobre-mi .card .icon-container {
-    margin-block: 2rem;
+.sobre-mi__card .icon-container {
+    margin-block: 1rem;
 }
 
-#sobre-mi .card span{
+.sobre-mi__card span{
     font-size: 1.5rem;
 }
 
