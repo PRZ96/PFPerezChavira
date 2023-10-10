@@ -1,0 +1,53 @@
+.hero-sobre-mi {
+    height: 100%;
+    background-image: url('../assets/img/main-header.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-block: 3rem;
+
+    &__title {
+        color: #fff;
+        font-size: 4rem;
+    }
+
+    &__image {
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        object-position: center;
+        max-width: 100%;
+    }
+
+    &__paragraph {
+        font-size: 1.8rem;
+    }
+}
+
+.sobre-mi {
+
+    &__title {
+        font-size: 2.5rem;
+        margin-block: 4.5rem;
+        text-align: center;
+    }
+
+    &__card {
+        width: 14rem;
+        height: 14rem;
+        text-align: center;
+        border: 1px solid #000;
+
+        & i{
+            font-size: 6rem;
+        }
+
+        & .icon-container .fa, .fa-solid, .fa-brands{
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        & span{
+            font-size: 1.5rem;
+        }
+    }
+}

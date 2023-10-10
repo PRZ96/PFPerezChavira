@@ -1,0 +1,39 @@
+.navbar {
+    background-color: black;
+    color: #fff !important;
+
+    &-toggler-icon {
+        background-color: white;
+    }
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+
+    &__nav li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        display: inline;
+        margin-right: 10px;
+        font-size: 1.5rem;
+        
+        &:hover {
+            color: red;
+        }
+    }
+
+    &__social {
+        font-size: 1.8rem;
+    
+        & a {
+            color: #fff;
+    
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+
