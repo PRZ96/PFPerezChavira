@@ -19,7 +19,7 @@
     }
 
     :is(&__info, &__proyects, &__contact, &__pages) a:hover{
-        color: red;
+        color: $primary;
     }
 
     &__title {

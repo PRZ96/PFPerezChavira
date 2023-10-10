@@ -1,0 +1,46 @@
+.cv {
+    &__title {
+        color: black;
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    &__paragraph{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .document {
+        border: black 1px solid;
+        padding: 2rem;
+        margin-bottom: 5rem;
+
+        a {
+            color: $primary;
+            text-decoration: none;
+    
+            &:hover {
+                color: black;
+              }
+          }
+          
+          .border-bottom {
+            border-bottom: 1px solid #868e96;
+          }
+          
+          .title-primary {
+            color: $primary;
+          }
+          
+          .subtitle {
+            color: $primary;
+          }
+          
+          .reset-list {
+            padding-left: 0;
+            list-style: none;
+          }
+    }
+}
+
