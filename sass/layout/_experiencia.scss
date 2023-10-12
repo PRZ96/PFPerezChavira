@@ -19,14 +19,19 @@
         margin-top: -10rem;
 
         &__img {
-            aspect-ratio: 16/9;
+            aspect-ratio: 16/10;
             max-width: 100%;
-            object-fit: cover;
+            object-fit: contain;
             object-position: center;
         }
 
         &__title {
             font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        &__job-position {
+            font-size: 2.2rem;
             margin-bottom: 1rem;
         }
 

@@ -227,13 +227,17 @@ body {
   margin-top: -10rem;
 }
 .experiencia .card__img {
-  aspect-ratio: 16/9;
+  aspect-ratio: 16/10;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 .experiencia .card__title {
   font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.experiencia .card__job-position {
+  font-size: 2.2rem;
   margin-bottom: 1rem;
 }
 .experiencia .card__date {
@@ -294,7 +298,7 @@ body {
 .cv .document a {
   color: #288eed;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 .cv .document a:hover {
   color: black;
