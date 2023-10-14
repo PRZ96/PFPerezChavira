@@ -124,6 +124,7 @@ body {
   aspect-ratio: 16/9;
   max-width: 100%;
   object-fit: cover;
+  border: #000 1px solid;
 }
 .intro__info {
   font-size: 2rem;
