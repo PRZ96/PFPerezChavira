@@ -185,11 +185,11 @@ body {
 }
 .proyectos .card {
   width: 100%;
+  height: 100%;
 }
 .proyectos .card__img {
-  aspect-ratio: 16/9;
   max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 .proyectos .card__title {
