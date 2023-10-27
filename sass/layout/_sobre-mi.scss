@@ -1,3 +1,5 @@
+@use './mixins' as m;
+
 .hero-sobre-mi {
     height: 100%;
     background-image: url('../assets/img/main-header.jpg');
@@ -36,6 +38,7 @@
         height: 14rem;
         text-align: center;
         border: 1px solid #000;
+        @include m.grow-animation(.5s, .10s, 1.2);
 
         & i{
             font-size: 6rem;
@@ -48,6 +51,7 @@
 
         & span{
             font-size: 1.5rem;
+            cursor: default;
         }
     }
 }
