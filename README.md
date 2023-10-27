@@ -1,5 +1,5 @@
-# PreEntrega 3 Pablo Antonio Pérez Chavira
+# Proyecto Final Pablo Antonio Pérez Chavira
 
 Sitio Web Portafolio Personal
 
-[Ver Sitio Web](https://prz96.github.io/PreEntrega3PerezChavira/)
+[Ver Sitio Web](http://pfperezchavira.great-site.net/)
